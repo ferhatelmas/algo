@@ -4,13 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.InputStreamReader;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/26/12
- * Time: 12:37 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question81 {
 
     public static void main(String[] args) throws Exception{

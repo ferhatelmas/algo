@@ -1,12 +1,5 @@
 package com.ferhatelmas;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Ginger
- * Date: 28.Oca.2012
- * Time: 19:22:22
- * To change this template use File | Settings | File Templates.
- */
 public class Question24 {
 
     private static int cnt = 0;

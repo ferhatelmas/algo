@@ -1,12 +1,5 @@
 package com.ferhatelmas;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/4/12
- * Time: 7:23 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question34 {
     
     private static int facs[] = {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 3602880};

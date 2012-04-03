@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/4/12
- * Time: 7:49 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question35 {
 
     private static List<Integer> work = new ArrayList<Integer>();

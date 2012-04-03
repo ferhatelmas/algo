@@ -3,13 +3,6 @@ package com.ferhatelmas;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/8/12
- * Time: 7:38 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question50 {
 
     public static void main(String[] args) {

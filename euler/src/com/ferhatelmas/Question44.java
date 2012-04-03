@@ -1,16 +1,5 @@
 package com.ferhatelmas;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/5/12
- * Time: 4:26 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question44 {
 
     public static void main(String[] args) {

@@ -2,13 +2,6 @@ package com.ferhatelmas;
 
 import java.math.BigInteger;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/15/12
- * Time: 5:49 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question55 {
 
     private static BigInteger one = new BigInteger("1");

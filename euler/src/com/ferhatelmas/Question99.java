@@ -4,16 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.math.BigInteger;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/24/12
- * Time: 12:25 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question99 {
 
-    //comments are the part of the actual calculation
+    //comments are the part of the actual(brute force) calculation
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new FileReader("base_exp.txt"));

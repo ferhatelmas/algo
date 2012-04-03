@@ -1,12 +1,5 @@
 package com.ferhatelmas;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/15/12
- * Time: 6:46 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question58 {
 
     public static void main(String[] args) {

@@ -4,13 +4,6 @@ import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/4/12
- * Time: 5:18 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question32 {
 
     static Pattern pattern1 = Pattern.compile(".*(\\d).*\\1.*");

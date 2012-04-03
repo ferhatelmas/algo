@@ -4,13 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.*;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/24/12
- * Time: 6:23 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question79 {
 
     private static String alphabet = "0123456789";

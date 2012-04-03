@@ -2,13 +2,6 @@ package com.ferhatelmas;
 
 import java.util.Arrays;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/8/12
- * Time: 6:59 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question49 {
 
     public static void main(String[] args) {

@@ -1,12 +1,5 @@
 package com.ferhatelmas;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/2/12
- * Time: 4:32 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question28 {
 
     private static int scale = 1001;

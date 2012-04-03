@@ -6,13 +6,6 @@ import java.math.MathContext;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/1/12
- * Time: 1:34 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question26 {
 
     public static void main(String[] args) {

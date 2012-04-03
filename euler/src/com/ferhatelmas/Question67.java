@@ -3,13 +3,6 @@ package com.ferhatelmas;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/26/12
- * Time: 10:40 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question67 {
 
     public static void main(String[] args) throws Exception {

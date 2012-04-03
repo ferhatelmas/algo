@@ -1,12 +1,5 @@
 package com.ferhatelmas;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/2/12
- * Time: 6:25 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question31 {
 
     private static int[] coins = {200, 100, 50, 20, 10, 5, 2, 1};

@@ -3,13 +3,6 @@ package com.ferhatelmas;
 import java.math.BigInteger;
 import java.util.HashSet;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/2/12
- * Time: 6:08 AM
- * To change this template use File | Settings | File Templates.
- */
 public class Question29 {
 
     private static int upperLimit = 100;

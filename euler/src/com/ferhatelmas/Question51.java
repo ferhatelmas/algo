@@ -6,13 +6,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/8/12
- * Time: 10:38 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question51 {
 
     private static Pattern pattern = Pattern.compile("\\d*(\\d)\\d*(\\1)\\d*(\\1)\\d+");

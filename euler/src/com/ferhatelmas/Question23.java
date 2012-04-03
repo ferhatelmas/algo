@@ -2,13 +2,6 @@ package com.ferhatelmas;
 
 import java.util.ArrayList;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Ginger
- * Date: 28.Oca.2012
- * Time: 16:44:43
- * To change this template use File | Settings | File Templates.
- */
 public class Question23 {
 
     public static void main(String[] args) {

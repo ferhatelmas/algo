@@ -5,13 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/4/12
- * Time: 10:21 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question42 {
 
     private static List<Integer> list = new ArrayList<Integer>();

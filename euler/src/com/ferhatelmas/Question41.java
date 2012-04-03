@@ -3,13 +3,6 @@ package com.ferhatelmas;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by IntelliJ IDEA.
- * User: felmas
- * Date: 2/4/12
- * Time: 9:59 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Question41 {
 
     static Pattern pattern1 = Pattern.compile(".*(\\d).*\\1.*");
