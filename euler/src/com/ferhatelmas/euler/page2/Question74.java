@@ -5,13 +5,15 @@ import java.util.HashSet;
 public class Question74 {
 
     private static int[] cache = new int[10];
+    private static final int limit = 1000000;
+    private static final int chainLength = 60;
 
     public static void main(String[] args) {
         fillCache();
 
         int cnt = 0;
-        for(int i=0; i<1000000; i++) {
-            if(getChainLength(i) == 60) cnt++;
+        for(int i=0; i<limit; i++) {
+            if(getChainLength(i) == chainLength) cnt++;
         }
         System.out.println(cnt);
     }
