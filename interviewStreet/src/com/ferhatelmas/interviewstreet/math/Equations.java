@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.BitSet;
 import java.util.Scanner;
 
-public class Solution {
+public class Equations {
 
     private static int[] primes;
 

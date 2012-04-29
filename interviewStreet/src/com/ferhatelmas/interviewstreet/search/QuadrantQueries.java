@@ -1,6 +1,8 @@
+package com.ferhatelmas.interviewstreet.search;
+
 import java.util.Scanner;
 
-public class SolutionSlow {
+public class QuadrantQueries {
 
     public static void main(String[] args) {
 
