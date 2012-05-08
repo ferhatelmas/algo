@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Question68 {
 
-    private static long max;
+    private static long max = Long.MIN_VALUE;
 
     public static void main(String[] args) {
 
