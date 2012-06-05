@@ -44,10 +44,8 @@ public class Question387 {
 
   private static boolean isRightTruncatable(long n) {
 
-    long tmp = n;
-    while((tmp/=10) > 0 && tmp%getSum(tmp) == 0);
-
-    return tmp==0;
+    while((n/=10) > 0 && n%getSum(n) == 0);
+    return n==0;
   }
 
 }
