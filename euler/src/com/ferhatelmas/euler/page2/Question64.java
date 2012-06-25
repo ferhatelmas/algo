@@ -1,7 +1,5 @@
 package com.ferhatelmas.euler.page2;
 
-import java.util.HashSet;
-
 public class Question64 {
 
     public static void main(String[] args) {
