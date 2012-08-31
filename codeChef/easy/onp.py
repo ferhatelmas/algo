@@ -19,7 +19,7 @@ def parse(expr, i):
     i += 1
 
   i += 1
-return op1 + op2 + opt, i 
+  return op1 + op2 + opt, i 
 
 
 stdin.readline()
