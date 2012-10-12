@@ -1,6 +1,5 @@
 package com.ferhatelmas.eolimp.page41.q1247;
 
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
@@ -11,37 +10,24 @@ public class Main {
       int n = in.nextInt();
       if(n == 0) break;
 
-      System.out.println(n + " " + getLcmCardinality(getDivisors(n)));
+      System.out.println(n + " " + getLcmCardinality(n));
     }
   }
 
-  private static Integer[] getDivisors(int n) {
-    int i = 2, cnt;
-    LinkedList<Integer> powers = new LinkedList<Integer>();
+  private static int getLcmCardinality(int n) {
+    int i = 2, cnt, mul = 1;
     while(i <= n) {
       cnt = 0;
       while(n%i == 0) {
         cnt++;
         n /= i;
       }
-      if(cnt > 0) {
-        powers.addLast(2*cnt+1);
+      mul *= (2*cnt+1);
+      if(++i > 45000) {
+        mul *= 3;
+        break;
       }
-      i++;
     }
-    return powers.toArray(new Integer[powers.size()]);
+    return mul/2+1;
   }
-
-  private static int getLcmCardinality(Integer[] powers) {
-    int sum = 1, mul;
-    for(int i=0; i<powers.length; i++) {
-      mul = powers[i]/2;
-      for(int j=i+1; j<powers.length; j++) {
-        mul *= powers[j];
-      }
-      sum += mul;
-    }
-    return sum;
-  }
-
 }
