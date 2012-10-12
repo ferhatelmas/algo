@@ -1,7 +1,6 @@
 package com.ferhatelmas.eolimp.page41.q1247;
 
 import java.util.LinkedList;
-import java.util.ListIterator;
 import java.util.Scanner;
 
 public class Main {
@@ -12,11 +11,11 @@ public class Main {
       int n = in.nextInt();
       if(n == 0) break;
 
-      System.out.println(n + " " + getLcmCardinality(n, getDivisors(n)));
+      System.out.println(n + " " + getLcmCardinality(getDivisors(n)));
     }
   }
 
-  private static LinkedList<Integer> getDivisors(int n) {
+  private static Integer[] getDivisors(int n) {
     int i = 2, cnt;
     LinkedList<Integer> powers = new LinkedList<Integer>();
     while(i <= n) {
@@ -26,29 +25,23 @@ public class Main {
         n /= i;
       }
       if(cnt > 0) {
-        powers.addLast(i);
-        powers.addLast(cnt);
+        powers.addLast(2*cnt+1);
       }
       i++;
     }
-    return powers;
+    return powers.toArray(new Integer[powers.size()]);
   }
 
-  private static int getLcmCardinality(int n, LinkedList<Integer> powers) {
-    if(n == 1) return 1;
-
-    int p1 = powers.removeFirst();
-    int n1 = powers.removeFirst();
-
-    ListIterator li = powers.listIterator();
-    int i = 0, j, mul = n1;
-    while(li.hasNext()) {
-      j = (Integer)li.next();
-      if(i%2 == 1) mul *= (2*j+1);
-      i++;
+  private static int getLcmCardinality(Integer[] powers) {
+    int sum = 1, mul;
+    for(int i=0; i<powers.length; i++) {
+      mul = powers[i]/2;
+      for(int j=i+1; j<powers.length; j++) {
+        mul *= powers[j];
+      }
+      sum += mul;
     }
-
-    return mul + getLcmCardinality(n/(int)Math.pow(p1, n1), powers);
+    return sum;
   }
 
 }
