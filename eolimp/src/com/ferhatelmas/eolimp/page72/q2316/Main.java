@@ -1,4 +1,4 @@
-package com.ferhatelmas.eolimp.page72.q2312;
+package com.ferhatelmas.eolimp.page72.q2316;
 
 import java.util.Scanner;
 
@@ -17,6 +17,7 @@ public class Main {
 
   static class BST {
     Node root = null;
+    boolean flag = false;
 
     public void add(int data) {
       if(root == null) root = new Node(data);
@@ -32,13 +33,19 @@ public class Main {
         else add(n.right, data);
     }
 
-    public int getHeight() {
-      return height(root);
+    public StringBuilder traverseLeaves() {
+      return traverse(root, new StringBuilder());
     }
 
-    private int height(Node n) {
-      if(n == null) return 0;
-      return Math.max(height(n.left), height(n.right)) + 1;
+    private StringBuilder traverse(Node n, StringBuilder sb) {
+      if(n == null) return sb;
+      if(n.left == null && n.right == null) {
+        sb.append(n.data);
+        sb.append(" ");
+      }
+      sb = traverse(n.left, sb);
+      sb = traverse(n.right, sb);
+      return sb;
     }
   }
 
@@ -49,7 +56,10 @@ public class Main {
     while((n=in.nextInt()) != 0) {
       bst.add(n);
     }
-    System.out.println(bst.getHeight());
+    StringBuilder sb = bst.traverseLeaves();
+    if(sb.length() > 0) sb.delete(sb.length()-1, sb.length());
+    System.out.println(sb.toString());
   }
 
 }
+
