@@ -16,7 +16,7 @@ public class Main {
         System.out.println(a + " " + b);
         int c = nodes[a], d = nodes[b];
         for(int i=0; i<nodes.length; i++)
-          if(nodes[i] == c || nodes[i] == d) nodes[i] = c;
+          if(nodes[i] == d) nodes[i] = c;
       }
     }
   }
