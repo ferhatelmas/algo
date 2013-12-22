@@ -7,5 +7,3 @@ class AdditionCycles:
             i += 1
             m = cycle(m)
         return i
-
-print AdditionCycles().cycleLength(26)
