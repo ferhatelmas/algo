@@ -9,7 +9,7 @@ class Car:
 
     def calculate_lap_time(self, t, total_track):
         total, path = self.a, (self.m * self.a) /2.0
-        for l, d in t:
+        for d in t:
             n = (self.m * (180-d)) / 180.0
             t1 = ((self.m - n) * self.b) / self.m
             total += t1
@@ -36,9 +36,9 @@ for i, test in enumerate(test_cases):
     cars.append(Car(*map(float, test.split())))
   else:
     track = map(float, test.split())
-    track = zip(track[0::2], track[1::2])
+    total = sum(track[::2])
+    track = track[1::2]
 test_cases.close()
 
-total = sum(t[0] for t in track)
 map(lambda c: c.calculate_lap_time(track, total), cars)
 print '\n'.join(map(str, sorted(cars)))
