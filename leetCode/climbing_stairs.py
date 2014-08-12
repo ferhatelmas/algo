@@ -1,6 +1,4 @@
 class Solution:
-    # @param n, an integer
-    # @return an integer
     cache = {}
 
     def climbStairs(self, n):
