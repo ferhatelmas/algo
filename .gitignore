@@ -3,4 +3,5 @@ out/
 .idea/
 a.out
 f
-test.*
+*.in
+*.out
