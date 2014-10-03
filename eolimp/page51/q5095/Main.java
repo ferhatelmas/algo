@@ -7,7 +7,6 @@ public class Main {
     Scanner in = new Scanner(System.in);
     int l1 = in.nextInt(), l2 = in.nextInt();
     String s1 = in.next(), s2 = in.next(), r;
-    StringBuilder sb = new StringBuilder();
     if(l1 < l2)
       r = s2.substring(0, l2-l1) + xor(s1, s2.substring(l2-l1));
     else if(l2 < l1)
