@@ -1,0 +1,13 @@
+package page73.q7290;
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    String s = "abdegopq";
+    int cnt = 0;
+    for(char c : new Scanner(System.in).nextLine().toCharArray())
+      if(s.indexOf(c) > -1) cnt++;
+    System.out.println(cnt);
+  }
+}
