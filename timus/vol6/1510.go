@@ -7,17 +7,17 @@ import (
 )
 
 func main() {
-	var n, v int
+	var n int
 	var t, m string
 	fmt.Scan(&n)
-	v = n / 2
+	n /= 2
 	c := map[string]int{}
 	s := bufio.NewScanner(os.Stdin)
 	s.Split(bufio.ScanLines)
 	for s.Scan() {
 		t = s.Text()
 		c[t]++
-		if c[t] > v {
+		if c[t] > n {
 			m = t
 		}
 	}
