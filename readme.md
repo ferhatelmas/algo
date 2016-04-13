@@ -12,7 +12,7 @@ These are my solutions for algorithm problems in various websites.
 * [LeetCode](http://oj.leetcode.com/) - Python
 * [PKU Online Judge (POJ)](http://poj.org/) - Java
 * [Project Euler](http://projecteuler.net/) - Java
-* [Sphere Online Juddge(SPOJ)](http://www.spoj.pl/) - Ruby
+* [Sphere Online Judge(SPOJ)](http://www.spoj.pl/) - Ruby
 * [Timus Online Judge](http://acm.timus.ru/) - Go
 * [TopCoder](http://www.topcoder.com/) - Python
 * [UVa Online Judge](http://uva.onlinejudge.org/) - C/C++
