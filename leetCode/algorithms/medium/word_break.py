@@ -6,5 +6,6 @@ class Solution:
         return self.solve(s, dict, len(s))
 
     def solve(self, s, dict, l):
-        return True if not s else any(s[:i] in dict and self.solve(s[i:], dict, l-i)
-                                      for i in xrange(l, 0, -1))
+        return True if not s else any(
+            s[:i] in dict and self.solve(s[i:], dict, l - i)
+            for i in xrange(l, 0, -1))

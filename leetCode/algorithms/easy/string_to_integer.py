@@ -1,5 +1,6 @@
 import re
 
+
 class Solution:
     def atoi(self, str):
         try:

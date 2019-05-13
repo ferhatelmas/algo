@@ -9,6 +9,7 @@ class Codec:
                 r(n.right)
             else:
                 s.append("~")
+
         r(root)
         return " ".join(s)
 
@@ -23,4 +24,5 @@ class Codec:
             n.left = p()
             n.right = p()
             return n
+
         return p()

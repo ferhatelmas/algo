@@ -14,4 +14,4 @@ class Solution:
                 e = m
             else:
                 s = m + 1
-        return [-1, -1] if l == s else [l, s-1]
+        return [-1, -1] if l == s else [l, s - 1]

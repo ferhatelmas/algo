@@ -1,5 +1,4 @@
 class Solution:
-
     def getIntersectionNode(self, headA, headB):
         a, b, ai, bi = headA, headB, 0, 0
         while a is not None:

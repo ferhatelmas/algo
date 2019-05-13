@@ -11,4 +11,5 @@ class Solution:
                 if not self.k:
                     return n.val
                 return r(n.right)
+
         return r(root)

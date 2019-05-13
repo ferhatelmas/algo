@@ -1,5 +1,4 @@
 class Solution:
-
     def restoreIpAddresses(self, s):
         self.ip = set()
         self.restore([], 0, s)

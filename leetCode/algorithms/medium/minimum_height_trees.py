@@ -7,10 +7,7 @@ class Solution:
         for a, b in edges:
             g[a].add(b)
             g[b].add(a)
-        deg = {
-            k: len(g[k]) if k in g else 0
-            for k in range(n)
-        }
+        deg = {k: len(g[k]) if k in g else 0 for k in range(n)}
         k = n
         while k > 2:
             d = [i for i in range(n) if deg[i] == 1]

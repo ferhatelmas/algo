@@ -19,7 +19,7 @@ class Solution:
                 self.cols.add(i)
                 self.d1.add(d1)
                 self.d2.add(d2)
-                c = self.compute(r+1, c, n)
+                c = self.compute(r + 1, c, n)
                 self.cols.remove(i)
                 self.d1.remove(d1)
                 self.d2.remove(d2)

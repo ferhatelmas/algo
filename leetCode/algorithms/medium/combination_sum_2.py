@@ -4,7 +4,7 @@ class Solution:
 
     def combination(self, cands, t, n, comb, res):
         for i, e in enumerate(cands[n:], start=n):
-            if i > n and e == cands[i-1]:
+            if i > n and e == cands[i - 1]:
                 continue
             if e == t:
                 res.append(comb + [e])

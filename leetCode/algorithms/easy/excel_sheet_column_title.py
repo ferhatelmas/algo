@@ -1,5 +1,4 @@
 class Solution:
-
     def convertToTitle(self, num):
         ls = []
         while num:

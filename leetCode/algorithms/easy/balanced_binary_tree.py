@@ -1,5 +1,4 @@
 class Solution:
-
     def isBalanced(self, root):
         self.r = True
         self.h(root)

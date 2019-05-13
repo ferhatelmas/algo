@@ -1,5 +1,4 @@
 class Solution:
-
     def maxProduct(self, A):
         a = b = r = A[0]
         for x in A[1:]:

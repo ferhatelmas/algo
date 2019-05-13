@@ -2,7 +2,6 @@ from collections import Counter
 
 
 class Solution:
-
     def twoSum(self, num, target):
         c = Counter(num)
         for i, a in enumerate(num, start=1):

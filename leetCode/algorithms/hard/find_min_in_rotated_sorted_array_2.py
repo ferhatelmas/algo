@@ -1,6 +1,6 @@
 class Solution:
     def findMin(self, nums):
-        l, h, m = 0, len(nums)-1, 0
+        l, h, m = 0, len(nums) - 1, 0
 
         while l < h:
             m = l + (h - l) / 2

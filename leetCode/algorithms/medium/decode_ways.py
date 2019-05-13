@@ -13,9 +13,8 @@ class Solution:
             return 1
         if s in self.m:
             return self.m[s]
-        n = self.decode(s[1:], l-1)
+        n = self.decode(s[1:], l - 1)
         if 0 < int(s[:2]) <= 26:
-            n += self.decode(s[2:], l-2)
+            n += self.decode(s[2:], l - 2)
         self.m[s] = n
         return n
-

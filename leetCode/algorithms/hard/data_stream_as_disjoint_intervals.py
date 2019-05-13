@@ -8,7 +8,6 @@ class Interval(object):
 
 
 class SummaryRanges(object):
-
     def __init__(self):
         self.intervals = []
 

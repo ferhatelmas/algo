@@ -14,5 +14,3 @@ class Solution:
             else:
                 p = p.next
         return res.next
-
-

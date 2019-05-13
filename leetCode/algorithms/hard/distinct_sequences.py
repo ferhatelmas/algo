@@ -7,6 +7,6 @@ class Solution:
             return (0, 1)[s == t]
         ls = [1] + [0] * tl
         for i in range(sl):
-            for j in range(min(tl-1, i), -1, -1):
-                ls[j+1] += (0, ls[j])[t[j] == s[i]]
+            for j in range(min(tl - 1, i), -1, -1):
+                ls[j + 1] += (0, ls[j])[t[j] == s[i]]
         return ls[tl]

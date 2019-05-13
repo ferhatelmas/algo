@@ -1,5 +1,4 @@
 class Solution:
-
     def longestCommonPrefix(self, strs):
         if not strs:
             return ""

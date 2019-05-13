@@ -8,4 +8,5 @@ class Solution(object):
             elif x % 5 == 0:
                 return "Buzz"
             return str(x)
-        return [c(x) for x in range(1, n+1)]
+
+        return [c(x) for x in range(1, n + 1)]

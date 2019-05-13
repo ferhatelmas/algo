@@ -4,6 +4,7 @@ class Solution:
             if first == last:
                 return str(last)
             return "{}->{}".format(first, last)
+
         if not nums:
             return []
         p, v, r = 0, nums[0], []

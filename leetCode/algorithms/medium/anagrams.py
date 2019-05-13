@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Solution:
     def anagrams(self, strs):
         d = defaultdict(list)

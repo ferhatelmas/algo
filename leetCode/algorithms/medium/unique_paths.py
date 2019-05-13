@@ -1,5 +1,4 @@
 class Solution:
-
     def uniquePaths(self, m, n):
         r = [[0] * n for _ in xrange(m)]
         r[0][0] = 1

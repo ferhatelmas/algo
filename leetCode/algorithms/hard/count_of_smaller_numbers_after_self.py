@@ -1,7 +1,7 @@
 class Solution:
     def countSmaller(self, nums):
         l = len(nums)
-        res, index = [0] * l, range(l-1, -1, -1)
+        res, index = [0] * l, range(l - 1, -1, -1)
         if l > 0:
             m = abs(min(nums))
             nums = [e + m for e in nums]
@@ -20,5 +20,6 @@ class Solution:
                     low.append(e)
             f(low, m >> 1)
             f(high, m >> 1)
+
         f(index, 1 << 31)
         return res

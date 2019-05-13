@@ -10,7 +10,7 @@ class Solution:
         if node is None:
             return 0
         if node.left is None and node.right is None:
-            return int(num+str(node.val), 2)
+            return int(num + str(node.val), 2)
         num += str(node.val)
         return self.sum(node.left, num) + self.sum(node.right, num)
 

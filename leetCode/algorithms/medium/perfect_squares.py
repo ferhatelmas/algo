@@ -1,7 +1,7 @@
 class Solution:
     def primes(self, n):
         d = 2
-        while d*d <= n:
+        while d * d <= n:
             c = 0
             while (n % d) == 0:
                 c += 1

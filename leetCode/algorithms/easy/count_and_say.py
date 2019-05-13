@@ -1,5 +1,6 @@
 from itertools import groupby
 
+
 class Solution:
     def countAndSay(self, n):
         def gen(s):

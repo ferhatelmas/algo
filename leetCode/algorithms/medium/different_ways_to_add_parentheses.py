@@ -4,7 +4,7 @@ class Solution:
         for i, e in enumerate(ss):
             if e in '-+*':
                 for a in self.diffWaysToCompute(ss[:i]):
-                    for b in self.diffWaysToCompute(ss[i+1:]):
+                    for b in self.diffWaysToCompute(ss[i + 1:]):
                         if e == '-':
                             res.append(a - b)
                         elif e == '+':

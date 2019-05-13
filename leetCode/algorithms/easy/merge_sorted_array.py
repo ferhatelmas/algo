@@ -1,5 +1,4 @@
 class Solution:
-
     def merge(self, A, m, B, n):
         sm, sn, i = m - 1, n - 1, m + n - 1
 

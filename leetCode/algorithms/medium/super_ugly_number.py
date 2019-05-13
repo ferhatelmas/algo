@@ -9,4 +9,4 @@ class Solution:
                     idx[i] += 1
             u.append(nu)
             l += 1
-        return u[n-1]
+        return u[n - 1]

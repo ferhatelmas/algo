@@ -1,5 +1,4 @@
 class Solution:
-
     def maximumGap(self, num):
         if len(num) < 2:
             return 0

@@ -9,10 +9,10 @@ class Solution:
 
         g[0][0] = 1
         for i in range(1, w):
-            g[0][i] = 0 if g[0][i] == 1 else g[0][i-1]
+            g[0][i] = 0 if g[0][i] == 1 else g[0][i - 1]
 
         for j in range(1, h):
-            g[j][0] = 0 if g[j][0] == 1 else g[j-1][0]
+            g[j][0] = 0 if g[j][0] == 1 else g[j - 1][0]
             for i in range(1, w):
-                g[j][i] = 0 if g[j][i] == 1 else g[j-1][i] + g[j][i-1]
-        return g[h-1][w-1]
+                g[j][i] = 0 if g[j][i] == 1 else g[j - 1][i] + g[j][i - 1]
+        return g[h - 1][w - 1]

@@ -4,7 +4,7 @@ class Solution:
         res = [1] * lg
         for i, e in enumerate(nums):
             res[i] *= l
-            res[lg-1-i] *= r
+            res[lg - 1 - i] *= r
             l *= e
-            r *= nums[lg-1-i]
+            r *= nums[lg - 1 - i]
         return res

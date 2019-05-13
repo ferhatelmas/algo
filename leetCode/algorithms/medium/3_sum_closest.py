@@ -4,8 +4,8 @@ class Solution:
         if l < 3:
             return 0
         nums.sort()
-        for i in range(l-1):
-            if i and nums[i] == nums[i-1]:
+        for i in range(l - 1):
+            if i and nums[i] == nums[i - 1]:
                 continue
             j, k = i + 1, l
             while j < k:

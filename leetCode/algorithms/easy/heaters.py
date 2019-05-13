@@ -9,9 +9,9 @@ class Solution(object):
             current = 10**9
             left = bisect.bisect_right(heaters, h)
             if left:
-                current = min(current, h-heaters[left-1])
+                current = min(current, h - heaters[left - 1])
             right = bisect.bisect_left(heaters, h)
             if right != l:
-                current = min(current, heaters[right]-h)
+                current = min(current, heaters[right] - h)
             radius = max(radius, current)
         return radius

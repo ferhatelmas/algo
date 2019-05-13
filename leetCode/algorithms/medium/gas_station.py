@@ -1,5 +1,4 @@
 class Solution:
-
     def canCompleteCircuit(self, gas, cost):
         tg = tc = md = d = s = 0
         for i, (g, c) in enumerate(zip(gas, cost)):

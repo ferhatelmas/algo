@@ -18,6 +18,7 @@ class Solution(object):
             d[r.val] += 1
             go(r.left)
             go(r.right)
+
         go(root)
         m = max(d.values() or [0])
         return [k for k, v in d.items() if v == m]

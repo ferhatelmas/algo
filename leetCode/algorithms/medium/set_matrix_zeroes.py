@@ -14,5 +14,3 @@ class Solution:
         for c in cols:
             for r in matrix:
                 r[c] = 0
-
-

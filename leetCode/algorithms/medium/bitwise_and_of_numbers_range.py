@@ -10,4 +10,5 @@ class Solution:
         n >>= diff
         return (m & n) << diff
 
+
 print(Solution().rangeBitwiseAnd(5, 7))

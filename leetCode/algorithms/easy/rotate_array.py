@@ -1,5 +1,4 @@
 class Solution:
-
     def rotate(self, nums, k):
         l = len(nums)
         k %= l

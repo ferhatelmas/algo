@@ -1,5 +1,4 @@
 class ListNode:
-
     def __init__(self, x):
         self.val = x
         self.next = None
@@ -9,7 +8,6 @@ class ListNode:
 
 
 class Solution:
-
     def deleteDuplicates(self, head):
         p = h = ListNode(0)
         while head is not None:

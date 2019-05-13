@@ -1,5 +1,6 @@
 from itertools import product
 
+
 class Solution:
 
     m = {

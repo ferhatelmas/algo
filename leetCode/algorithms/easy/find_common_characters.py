@@ -1,5 +1,6 @@
 from collections import Counter
 
+
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         c = Counter(A[0])

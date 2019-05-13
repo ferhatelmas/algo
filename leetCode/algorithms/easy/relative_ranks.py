@@ -13,6 +13,6 @@ class Solution(object):
             elif i == 2:
                 v = "Bronze Medal"
             else:
-                v = str(i+1)
+                v = str(i + 1)
             res[ls[i][0]] = v
         return res
