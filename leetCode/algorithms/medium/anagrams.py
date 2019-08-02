@@ -6,7 +6,7 @@ class Solution:
         d = defaultdict(list)
         res = []
         for s in strs:
-            d[''.join(sorted(s))].append(s)
+            d["".join(sorted(s))].append(s)
         for k in d:
             if len(d[k]) > 1:
                 res.extend(d[k])

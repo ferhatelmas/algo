@@ -1,6 +1,6 @@
 class Solution:
     def c(self, s):
-        return sum(int(e)**2 for e in str(s))
+        return sum(int(e) ** 2 for e in str(s))
 
     def isHappy(self, n):
         seen, n = {1}, self.c(n)

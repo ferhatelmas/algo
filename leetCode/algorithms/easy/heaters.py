@@ -6,7 +6,7 @@ class Solution(object):
         heaters.sort()
         radius, l = 0, len(heaters)
         for h in houses:
-            current = 10**9
+            current = 10 ** 9
             left = bisect.bisect_right(heaters, h)
             if left:
                 current = min(current, h - heaters[left - 1])

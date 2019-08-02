@@ -8,8 +8,8 @@ class Solution:
         if root is None:
             return []
         return [[root.val]] + [
-            a + b for a, b in izip_longest(
-                self.levelOrder(root.left),
-                self.levelOrder(root.right),
-                fillvalue=[])
+            a + b
+            for a, b in izip_longest(
+                self.levelOrder(root.left), self.levelOrder(root.right), fillvalue=[]
+            )
         ]

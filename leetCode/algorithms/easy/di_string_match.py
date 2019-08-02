@@ -5,7 +5,7 @@ class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         res, a, b = [0], 0, 0
         for e in S:
-            if e == 'I':
+            if e == "I":
                 a += 1
                 res.append(a)
             else:

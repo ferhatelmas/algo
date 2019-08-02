@@ -19,7 +19,7 @@ class Solution:
         return False
 
     def parse(self, s):
-        if s[0] == '0' and s != '0':
+        if s[0] == "0" and s != "0":
             return
         return int(s)
 

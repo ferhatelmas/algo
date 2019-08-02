@@ -10,4 +10,4 @@ class Solution:
                 j = -1
             elif i == 0:
                 j = 1
-        return ''.join(''.join(l) for l in ls)
+        return "".join("".join(l) for l in ls)

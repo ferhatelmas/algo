@@ -9,4 +9,4 @@ class Solution:
         for e in arr2:
             res.extend([e] * a[e])
         s = set(arr2)
-        return res + sorted(chain(*([k]*v for k, v in a.items() if k not in s)))
+        return res + sorted(chain(*([k] * v for k, v in a.items() if k not in s)))

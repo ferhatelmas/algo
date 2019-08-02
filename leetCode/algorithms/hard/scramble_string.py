@@ -12,8 +12,8 @@ class Solution:
                     else:
                         k = 1
                         while k < l and not dp[i][j][l]:
-                            dp[i][j][l] = (
-                                (dp[i][j][k] and dp[i + k][j + k][l - k]) or
-                                (dp[i][j + l - k][k] and dp[i + k][j][l - k]))
+                            dp[i][j][l] = (dp[i][j][k] and dp[i + k][j + k][l - k]) or (
+                                dp[i][j + l - k][k] and dp[i + k][j][l - k]
+                            )
                             k += 1
         return dp[0][0][l1]

@@ -8,7 +8,7 @@ class Solution:
                 s = e[l:r]
                 j = m.get(s[::-1], -1)
                 if j != -1 and i != j:
-                    w = e[(0, r)[l == 0]:(l, le)[l == 0]]
+                    w = e[(0, r)[l == 0] : (l, le)[l == 0]]
                     if w == w[::-1]:
                         if l == 0:
                             res.append([i, j])

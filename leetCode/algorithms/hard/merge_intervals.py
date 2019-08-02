@@ -11,7 +11,7 @@ class Solution:
     def merge(self, intervals):
         if len(intervals) < 2:
             return intervals
-        intervals = sorted(intervals, key=operator.attrgetter('start'))
+        intervals = sorted(intervals, key=operator.attrgetter("start"))
         res = []
         s, e = intervals[0].start, intervals[0].end
         for interval in intervals:

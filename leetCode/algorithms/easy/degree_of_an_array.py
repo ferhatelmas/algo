@@ -7,7 +7,7 @@ class Solution:
         for i, e in enumerate(nums):
             if e in counts:
                 a, b, c = counts[e]
-                counts[e] = [a, i, c+1]
+                counts[e] = [a, i, c + 1]
             else:
                 counts[e] = [i, i, 1]
 

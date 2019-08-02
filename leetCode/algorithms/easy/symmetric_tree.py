@@ -11,7 +11,6 @@ class Solution:
                 return left == right
             if left.val != right.val:
                 return False
-            return (isSym(left.left, right.right)
-                    and isSym(left.right, right.left))
+            return isSym(left.left, right.right) and isSym(left.right, right.left)
 
         return isSym(root, root)

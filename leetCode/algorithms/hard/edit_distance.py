@@ -11,6 +11,5 @@ class Solution:
                 if a == b:
                     c[i + 1][j + 1] = c[i][j]
                 else:
-                    c[i + 1][j + 1] = 1 + min(c[i][j], c[i + 1][j],
-                                              c[i][j + 1])
+                    c[i + 1][j + 1] = 1 + min(c[i][j], c[i + 1][j], c[i][j + 1])
         return c[m][n]

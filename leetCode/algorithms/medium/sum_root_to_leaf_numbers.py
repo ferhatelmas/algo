@@ -1,6 +1,6 @@
 class Solution:
     def sumNumbers(self, root):
-        return self.do_sum('', root)
+        return self.do_sum("", root)
 
     def do_sum(self, v, r):
         if not r:

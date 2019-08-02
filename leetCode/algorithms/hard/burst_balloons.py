@@ -6,6 +6,8 @@ class Solution(object):
             for l in range(1, n - ln + 2):
                 r = l + ln - 1
                 for i in range(l, r + 1):
-                    dp[l][r] = max(dp[l][r], ns[l - 1] * ns[i] * ns[r + 1] +
-                                   dp[l][i - 1] + dp[i + 1][r])
+                    dp[l][r] = max(
+                        dp[l][r],
+                        ns[l - 1] * ns[i] * ns[r + 1] + dp[l][i - 1] + dp[i + 1][r],
+                    )
         return dp[1][n]

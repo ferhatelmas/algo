@@ -15,4 +15,4 @@ class Solution:
         return self.sum(node.left, num) + self.sum(node.right, num)
 
     def sumRootToLeaf(self, root: TreeNode) -> int:
-        return self.sum(root, '')
+        return self.sum(root, "")

@@ -7,7 +7,7 @@ class Solution:
         return self.decode(s, len(s))
 
     def decode(self, s, l):
-        if s[:1] == '0':
+        if s[:1] == "0":
             return 0
         if l < 2:
             return 1

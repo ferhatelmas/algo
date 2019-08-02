@@ -2,15 +2,15 @@ class Solution:
     def evalRPN(self, tokens):
         s = []
         for token in tokens:
-            if token in '+-/*':
+            if token in "+-/*":
                 i, j = s.pop(), s.pop()
-                if token == '+':
+                if token == "+":
                     res = j + i
-                elif token == '-':
+                elif token == "-":
                     res = j - i
-                elif token == '*':
+                elif token == "*":
                     res = j * i
-                elif token == '/':
+                elif token == "/":
                     if min(i, j) <= 0 < max(i, j):
                         res = -(-j / i)
                     else:

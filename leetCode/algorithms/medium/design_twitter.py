@@ -13,11 +13,9 @@ class Twitter(object):
 
     def getNewsFeed(self, userId):
         tweets = sorted(
-            [
-                f for i in set([userId]) | self.followers[userId]
-                for f in self.tweets[i]
-            ],
-            reverse=True)[:10]
+            [f for i in set([userId]) | self.followers[userId] for f in self.tweets[i]],
+            reverse=True,
+        )[:10]
         return [t[1] for t in tweets]
 
     def follow(self, followerId, followeeId):

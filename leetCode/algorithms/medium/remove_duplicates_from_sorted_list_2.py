@@ -4,7 +4,7 @@ class ListNode:
         self.next = None
 
     def __str__(self):
-        return '{}->{}'.format(self.val, self.next)
+        return "{}->{}".format(self.val, self.next)
 
 
 class Solution:

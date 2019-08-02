@@ -14,4 +14,4 @@ class MedianFinder:
         i = self.n // 2
         if self.n % 2:
             return self.ls[i]
-        return sum(self.ls[i - 1:i + 1]) / 2.0
+        return sum(self.ls[i - 1 : i + 1]) / 2.0

@@ -12,7 +12,7 @@ class Solution:
             res.append([e for e in p])
             return
         for i in range(k, l):
-            if s[k:i + 1] == s[k:i + 1][::-1]:
-                p.append(s[k:i + 1])
+            if s[k : i + 1] == s[k : i + 1][::-1]:
+                p.append(s[k : i + 1])
                 self.dfs(i + 1, s, p, res)
                 p.pop()

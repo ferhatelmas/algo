@@ -6,5 +6,5 @@ class Solution:
             if i == 0 and num > 0:
                 num -= 1
                 i = 26
-            ls.append(chr(ord('A') - 1 + i))
-        return ''.join(reversed(ls))
+            ls.append(chr(ord("A") - 1 + i))
+        return "".join(reversed(ls))

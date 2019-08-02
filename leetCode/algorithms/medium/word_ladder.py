@@ -10,7 +10,7 @@ class Solution:
             for s in found:
                 for i, e in enumerate(s):
                     for ch in string.ascii_lowercase:
-                        w = s[:i] + ch + s[i + 1:]
+                        w = s[:i] + ch + s[i + 1 :]
                         if w in d:
                             new_founds.add(w)
                             d.remove(w)
