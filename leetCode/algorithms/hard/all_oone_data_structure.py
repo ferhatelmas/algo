@@ -15,12 +15,13 @@ class AllOne:
         else:
             self.d[key] = n - 1
 
-    def getMaxKey(self) -> str:
+    def getKey(self, index):
         if not self.d:
             return ""
-        return sorted(self.d.items(), key=itemgetter(1))[-1][0]
+        return sorted(self.d.items(), key=itemgetter(1))[index][0]
+
+    def getMaxKey(self) -> str:
+        return self.getKey(-1)
 
     def getMinKey(self) -> str:
-        if not self.d:
-            return ""
-        return sorted(self.d.items(), key=itemgetter(1))[0][0]
+        return self.getKey(0)
