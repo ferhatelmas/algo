@@ -19,22 +19,7 @@ jobs:
           echo "/home/runner/.local/bin" >> $GITHUB_PATH
 
       - name: Install deps with ${{ matrix.python }}
-        run: |
-          pip install black
-          pip install flake8
+        run: make deps
 
       - name: Lint with ${{ matrix.python }}
         run: make lint
-
-      - name: Install, test and code coverage with ${{ matrix.python }}
-        env:
-          STREAM_KEY: ${{ secrets.STREAM_KEY }}
-          STREAM_SECRET: ${{ secrets.STREAM_SECRET }}
-        run: |
-          python setup.py install
-          make test
-
-      - name: "Upload coverage to Codecov"
-        uses: codecov/codecov-action@v1
-        with:
-          fail_ci_if_error: true

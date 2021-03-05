@@ -1,4 +1,5 @@
-## Algorithms
+## Algorithms [![py](https://github.com/ferhatelmas/algo/workflows/py/badge.svg)](https://github.com/ferhatelmas/algo/actions)
+
 
 These are my solutions for algorithm problems in various websites.
 
