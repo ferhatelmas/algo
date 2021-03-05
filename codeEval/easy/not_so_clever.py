@@ -4,7 +4,7 @@ import sys
 def step(ls):
     for i, (a, b) in enumerate(zip(ls, ls[1:])):
         if a > b:
-            ls[i], ls[i+1] = b, a
+            ls[i], ls[i + 1] = b, a
             return
 
 

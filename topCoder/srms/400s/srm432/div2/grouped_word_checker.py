@@ -1,5 +1,6 @@
 from itertools import groupby
 
+
 class GroupedWordChecker:
     def howMany(self, words):
         def is_grouped(w):
@@ -9,4 +10,5 @@ class GroupedWordChecker:
                     return False
                 s.add(k)
             return True
+
         return sum(map(is_grouped, words))

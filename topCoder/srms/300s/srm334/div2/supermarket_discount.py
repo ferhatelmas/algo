@@ -4,7 +4,7 @@ class SupermarketDiscount:
         while i < 3:
             r += s[i]
             if r >= 50:
-                c += r-10
+                c += r - 10
                 r = 0
             i += 1
         return c + r

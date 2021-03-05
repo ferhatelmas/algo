@@ -1,5 +1,6 @@
 from itertools import groupby
 
+
 class StringSegment:
     def average(self, s):
         a, b = 0, 0

@@ -1,9 +1,9 @@
 class TaroString:
     def getAnswer(self, S):
-        c = 'CAT'
+        c = "CAT"
         if not all(S.count(e) == 1 for e in c):
-            return 'Impossible'
+            return "Impossible"
         for e in S:
             if c and e == c[0]:
                 c = c[1:]
-        return 'Impossible' if c else 'Possible'
+        return "Impossible" if c else "Possible"

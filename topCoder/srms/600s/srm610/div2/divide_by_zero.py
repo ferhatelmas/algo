@@ -1,7 +1,7 @@
 class DivideByZero:
     def CountNumbers(self, numbers):
         s, g = set(), set(numbers)
-        while len(g)-len(s):
+        while len(g) - len(s):
             s, g = g, set()
             for i in s:
                 g.add(i)

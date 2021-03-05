@@ -4,5 +4,5 @@ class PrefixCode:
         for i in xrange(length):
             for j in xrange(length):
                 if i != j and words[j].startswith(words[i]):
-                    return 'No, {}'.format(i)
-        return 'Yes'
+                    return "No, {}".format(i)
+        return "Yes"

@@ -4,7 +4,7 @@ class PrimalUnlicensedCreatures:
         for g in sorted(grezPower):
             if g < initialLevel:
                 c += 1
-                initialLevel += g/2
+                initialLevel += g / 2
             else:
                 break
         return c

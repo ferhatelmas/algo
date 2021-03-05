@@ -3,7 +3,7 @@ class DietPlan:
         s, a = set(diet), set()
         for e in breakfast + lunch:
             if e not in s or e in a:
-                return 'CHEATER'
+                return "CHEATER"
             else:
                 a.add(e)
-        return ''.join(sorted(s-a))
+        return "".join(sorted(s - a))

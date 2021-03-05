@@ -9,9 +9,9 @@ def get_statistics(a, n):
 
     x, y = divmod(n, len(ls))
     c = {e: x + int(i < y) for i, e in enumerate(ls)}
-    return ', '.join('{}: {}'.format(i, c.get(i, 0)) for i in xrange(10))
+    return ", ".join("{}: {}".format(i, c.get(i, 0)) for i in xrange(10))
 
 
-with open(sys.argv[1], 'r') as test_cases:
+with open(sys.argv[1], "r") as test_cases:
     for test in test_cases:
         print get_statistics(*map(int, test.split()))

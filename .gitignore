@@ -6,3 +6,4 @@ f
 *.in
 *.out
 .ropeproject/
+.vscode/

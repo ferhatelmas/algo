@@ -1,5 +1,6 @@
 from sys import maxint
 
+
 class LittleElephantAndBooks:
     def getNumber(self, pages, number):
         ls, l, m = sorted(pages), len(pages), maxint

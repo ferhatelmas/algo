@@ -9,6 +9,6 @@ def walk(m, n, x, y):
     return c + x
 
 
-with open(sys.argv[1], 'r') as test_cases:
+with open(sys.argv[1], "r") as test_cases:
     for test in test_cases:
-        print(walk(*map(int, re.findall(r'\d+', test))))
+        print(walk(*map(int, re.findall(r"\d+", test))))

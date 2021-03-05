@@ -7,5 +7,4 @@ class GoodCompanyDivTwo:
         def dep(i):
             return [i] + [j for j, x in enumerate(superior) if x == i]
 
-        return sum(is_diverse(d)
-                   for d in (dep(i) for i in xrange(len(superior))))
+        return sum(is_diverse(d) for d in (dep(i) for i in xrange(len(superior))))

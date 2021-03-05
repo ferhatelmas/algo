@@ -1,7 +1,7 @@
 class CondorcetVoting:
     def winner(self, votes):
         l = len(votes[0])
-        c = [[0]*l for _ in xrange(l)]
+        c = [[0] * l for _ in xrange(l)]
         for v in votes:
             for i in xrange(l):
                 for j in xrange(l):

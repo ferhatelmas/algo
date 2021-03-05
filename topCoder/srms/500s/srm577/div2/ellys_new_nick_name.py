@@ -2,7 +2,7 @@ class EllysNewNickname:
     def getLength(self, nickname):
         c, v = 0, 0
         for e in nickname:
-            if e in 'aeiouy':
+            if e in "aeiouy":
                 v += 1
             else:
                 if v:

@@ -8,10 +8,7 @@ def teams(ls):
         s = str(i)
         for n in map(int, l.split()):
             d[n].append(s)
-    return " ".join(
-        "{}:{};".format(k, ",".join(d[k]))
-        for k in sorted(d.keys())
-    )
+    return " ".join("{}:{};".format(k, ",".join(d[k])) for k in sorted(d.keys()))
 
 
 with open(sys.argv[1], "r") as test_cases:

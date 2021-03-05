@@ -3,6 +3,6 @@ class TypingDistance:
         i, c = keyboard.index(word[0]), 0
         for e in word:
             j = keyboard.index(e)
-            c += abs(i-j)
+            c += abs(i - j)
             i = j
         return c

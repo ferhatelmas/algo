@@ -7,6 +7,6 @@ class GymTraining:
                     p += trainChange
                     needToTrain -= 1
                 else:
-                    p = max(minPulse, p-restChange)
+                    p = max(minPulse, p - restChange)
                 c += 1
         return -1 if needToTrain else c

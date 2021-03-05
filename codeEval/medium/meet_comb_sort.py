@@ -3,7 +3,7 @@ import sys
 
 def order(ls, l, gap):
     swapped = False
-    for i in range(l-gap):
+    for i in range(l - gap):
         j = i + gap
         if ls[i] > ls[j]:
             swapped = True

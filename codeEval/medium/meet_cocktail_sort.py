@@ -2,12 +2,12 @@ import sys
 
 
 def step(ls, l):
-    for i in xrange(0, l-1):
-        if ls[i] > ls[i+1]:
-            ls[i+1], ls[i] = ls[i], ls[i+1]
-    for i in xrange(l-1, 0, -1):
-        if ls[i] < ls[i-1]:
-            ls[i], ls[i-1] = ls[i-1], ls[i]
+    for i in xrange(0, l - 1):
+        if ls[i] > ls[i + 1]:
+            ls[i + 1], ls[i] = ls[i], ls[i + 1]
+    for i in xrange(l - 1, 0, -1):
+        if ls[i] < ls[i - 1]:
+            ls[i], ls[i - 1] = ls[i - 1], ls[i]
 
 
 def cocktail(ls, n):

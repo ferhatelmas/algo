@@ -8,4 +8,4 @@ class CeyKaps:
                 elif s[2] == e:
                     e = s[0]
             ss.append(e)
-        return ''.join(ss)
+        return "".join(ss)

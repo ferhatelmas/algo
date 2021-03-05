@@ -1,6 +1,6 @@
 c = m = 0
 for e in input():
-    if e == 'k':
+    if e == "k":
         c += 1
         m = max(m, c)
     else:

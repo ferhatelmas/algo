@@ -3,6 +3,6 @@ class FoxAndIntegers:
         a = (AminusB + AplusB) / 2
         b = AplusB - a
         c = BplusC - b
-        if a-b == AminusB and b-c == BminusC:
+        if a - b == AminusB and b - c == BminusC:
             return (a, b, c)
         return ()

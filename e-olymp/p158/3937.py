@@ -1,5 +1,5 @@
 def my_sum(s):
-    return sum(ord(e) - ord('0') for e in s)
+    return sum(ord(e) - ord("0") for e in s)
 
 
 def digital_root(s):
@@ -9,4 +9,4 @@ def digital_root(s):
     return n, int(s)
 
 
-print(' '.join(sorted(input().split(), key=digital_root)))
+print(" ".join(sorted(input().split(), key=digital_root)))

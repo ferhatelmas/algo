@@ -4,8 +4,10 @@ class MeasuringTemperature:
         for i, n in enumerate(measuredValues):
             if n >= -273:
                 m = 1001
-                for e in measuredValues[max(i-2, 0):i] + measuredValues[i+1:i+3]:
-                    m = min(m, abs(n-e))
+                for e in (
+                    measuredValues[max(i - 2, 0) : i] + measuredValues[i + 1 : i + 3]
+                ):
+                    m = min(m, abs(n - e))
                 print m
                 if m < 3:
                     ns += n

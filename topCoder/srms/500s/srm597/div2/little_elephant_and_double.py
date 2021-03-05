@@ -5,5 +5,5 @@ class LittleElephantAndDouble:
             while i < j:
                 i *= 2
             if i != j:
-                return 'NO'
-        return 'YES'
+                return "NO"
+        return "YES"

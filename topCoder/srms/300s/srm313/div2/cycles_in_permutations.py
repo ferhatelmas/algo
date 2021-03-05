@@ -6,4 +6,5 @@ class CyclesInPermutations:
                 c += 1
                 n = board[n - 1]
             return c
+
         return max(map(cycle, xrange(len(board))))

@@ -3,15 +3,15 @@ import re
 import sys
 
 
-m = {'?': '.?', '*': '.*?'}
+m = {"?": ".?", "*": ".*?"}
 
 
 def score(s):
-    return sum(ord(e) - ord('a') + 1 for e in s)
+    return sum(ord(e) - ord("a") + 1 for e in s)
 
 
 def tr(s):
-    return "(?=({}))".format(''.join(m.get(e, e) for e in s))
+    return "(?=({}))".format("".join(m.get(e, e) for e in s))
 
 
 for ln in sys.stdin:

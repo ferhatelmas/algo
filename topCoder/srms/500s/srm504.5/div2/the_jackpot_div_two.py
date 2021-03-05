@@ -1,5 +1,6 @@
 from heapq import heapify, heappop, heappush
 
+
 class TheJackpotDivTwo:
     def find(self, money, jackpot):
         h = list(money)

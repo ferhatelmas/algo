@@ -1,5 +1,6 @@
 from collections import Counter
 
+
 class KingdomAndDucks:
     def minDucks(self, duckTypes):
         c = Counter(duckTypes)

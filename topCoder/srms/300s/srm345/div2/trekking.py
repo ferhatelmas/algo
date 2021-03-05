@@ -1,14 +1,15 @@
 from sys import maxint
 
+
 class Trekking:
     def findCamps(self, trail, plans):
         c = maxint
         for plan in plans:
             f, d = True, 0
             for t, p in zip(trail, plan):
-                if p == 'C':
+                if p == "C":
                     d += 1
-                    if t == '^':
+                    if t == "^":
                         f = False
                         break
             if f:

@@ -3,7 +3,7 @@ class DoubleLetter:
         def remove(s):
             for k, (i, j) in enumerate(zip(s, s[1:])):
                 if i == j:
-                    return s[:k] + s[k+2:]
+                    return s[:k] + s[k + 2 :]
             return s
 
         while True:
@@ -12,4 +12,3 @@ class DoubleLetter:
                 break
             S = s
         return "Possible" if not S else "Impossible"
-

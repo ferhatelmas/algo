@@ -8,4 +8,4 @@ for i, ln in enumerate(stdin):
         cnt = Counter(ln.rstrip().split())
     elif c == 2:
         a, b = ln.rstrip().split()
-        print(sum(cnt[str(i)] for i in range(int(a), int(b)+1)))
+        print(sum(cnt[str(i)] for i in range(int(a), int(b) + 1)))

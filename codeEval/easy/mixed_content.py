@@ -1,5 +1,6 @@
 import sys
 
+
 def separate(ls):
     ns, ss = [], []
     for e in ls:
@@ -9,10 +10,11 @@ def separate(ls):
         except:
             ss.append(e)
     if ns and ss:
-        return '%s|%s' % (','.join(ss), ','.join(ns))
+        return "%s|%s" % (",".join(ss), ",".join(ns))
 
-test_cases = open(sys.argv[1], 'r')
+
+test_cases = open(sys.argv[1], "r")
 for test in test_cases:
-    res = separate(test.strip().split(','))
+    res = separate(test.strip().split(","))
     print res if res else test.strip()
 test_cases.close()

@@ -4,5 +4,5 @@ class TheBoredomDivTwo:
         if j > n:
             c += 1
         if b > n:
-            c += (b != j)
+            c += b != j
         return n + c

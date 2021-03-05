@@ -8,4 +8,4 @@ for i, ln in enumerate(stdin):
         else:
             ls = map(int, ln.split())
             i, j = divmod(sum(ls), n)
-            print -1 if j >= min(ls) else i
+            print - 1 if j >= min(ls) else i

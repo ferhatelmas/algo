@@ -6,5 +6,6 @@ class Swimmers:
             if s <= current:
                 return -1
             d = float(d)
-            return int(d/(s+current) + d/(s-current))
+            return int(d / (s + current) + d / (s - current))
+
         return map(time, distances, speeds)

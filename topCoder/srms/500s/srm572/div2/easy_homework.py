@@ -5,5 +5,5 @@ class EasyHomework:
             if e < 0:
                 c = not c
             elif e == 0:
-                return 'ZERO'
-        return 'POSITIVE' if c else 'NEGATIVE'
+                return "ZERO"
+        return "POSITIVE" if c else "NEGATIVE"

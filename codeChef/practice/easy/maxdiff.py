@@ -7,7 +7,4 @@ for i, ln in enumerate(stdin):
             _, k = map(int, ln.split())
         else:
             ls = sorted(map(int, ln.split()))
-            print max(
-                abs(sum(ls[k:]) - sum(ls[:k])),
-                abs(sum(ls[:-k]) - sum(ls[-k:]))
-            )
+            print max(abs(sum(ls[k:]) - sum(ls[:k])), abs(sum(ls[:-k]) - sum(ls[-k:])))

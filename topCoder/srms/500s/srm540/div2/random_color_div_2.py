@@ -4,5 +4,9 @@ class RandomColoringDiv2:
         for r in xrange(maxR):
             for g in xrange(maxG):
                 for b in xrange(maxB):
-                    c += (d1 <= max(abs(r-startR), abs(g-startG), abs(b-startB)) <= d2)
+                    c += (
+                        d1
+                        <= max(abs(r - startR), abs(g - startG), abs(b - startB))
+                        <= d2
+                    )
         return c

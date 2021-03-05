@@ -6,7 +6,7 @@ class BigBurger:
                 t = a + s
             else:
                 if t >= a:
-                    m = max(m, t-a)
+                    m = max(m, t - a)
                     t += s
                 else:
                     t = a + s

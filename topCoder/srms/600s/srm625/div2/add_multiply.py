@@ -9,5 +9,5 @@ class AddMultiply:
                 for k in xrange(-1000, 1001):
                     if 0 <= k <= 1:
                         continue
-                    if i*j+k == y:
+                    if i * j + k == y:
                         return i, j, k

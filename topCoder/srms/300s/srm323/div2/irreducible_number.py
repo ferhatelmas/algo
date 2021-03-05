@@ -1,5 +1,6 @@
 from itertools import permutations
 
+
 class IrreducibleNumber:
     def getIrreducible(self, A):
         ns = set()

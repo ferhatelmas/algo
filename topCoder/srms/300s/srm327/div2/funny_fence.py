@@ -1,6 +1,6 @@
 class FunnyFence:
     def getLength(self, s):
-        p, c, m = '', 0, 0
+        p, c, m = "", 0, 0
         for e in s:
             if e == p:
                 m = max(m, c)

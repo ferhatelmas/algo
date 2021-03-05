@@ -7,6 +7,6 @@ class BinaryPolynomialDivTwo:
                 if not i:
                     s += j
                 else:
-                    s += j * x**i
-            c += 0 if s%2 else 1
+                    s += j * x ** i
+            c += 0 if s % 2 else 1
         return c

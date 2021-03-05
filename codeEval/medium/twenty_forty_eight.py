@@ -3,7 +3,7 @@ from sys import argv
 
 def step(ls, reverse):
     r = []
-    for e in (reversed(ls) if reverse else ls):
+    for e in reversed(ls) if reverse else ls:
         if e == 0:
             continue
         if not r:
@@ -33,19 +33,19 @@ def performx(ls, n, r=False, t=False):
 
 
 def perform(action, n, ls):
-    if action == 'RIGHT':
+    if action == "RIGHT":
         performx(ls, n, True)
-    elif action == 'LEFT':
+    elif action == "LEFT":
         performx(ls, n)
-    elif action == 'UP':
+    elif action == "UP":
         ls = performx(ls, n, t=True)
     else:
         ls = performx(ls, n, True, True)
-    return '|'.join(' '.join(map(str, e)) for e in ls)
+    return "|".join(" ".join(map(str, e)) for e in ls)
 
 
-with open(argv[1], 'rb') as test_cases:
+with open(argv[1], "rb") as test_cases:
     for test in test_cases:
-        action, n, board = [e.strip() for e in test.split(';')]
-        board = [map(int, e.split()) for e in board.split('|')]
+        action, n, board = [e.strip() for e in test.split(";")]
+        board = [map(int, e.split()) for e in board.split("|")]
         print(perform(action, int(n), board))

@@ -1,5 +1,6 @@
 from heapq import heappop, heappush
 
+
 class Stick:
     def pieces(self, x):
         s, l, c = 64, [64], 1

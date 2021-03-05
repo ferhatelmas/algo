@@ -3,7 +3,7 @@ class OfficeParking:
         park = []
         for e in events:
             w, a = e.split()
-            if a == 'arrives':
+            if a == "arrives":
                 if -1 in park:
                     park[park.index(-1)] = w
                 else:

@@ -7,7 +7,7 @@ class GuessTheNumber:
             if x == answer:
                 break
             elif x > answer:
-                upper = x-1
+                upper = x - 1
             else:
-                lower = x+1
+                lower = x + 1
         return c

@@ -1,5 +1,6 @@
 from math import ceil
 
+
 class TheJediTestDiv2:
     def countSupervisors(self, students, Y, J):
         m, J = 50000, float(J)

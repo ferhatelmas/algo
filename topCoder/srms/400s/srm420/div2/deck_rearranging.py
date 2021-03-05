@@ -3,4 +3,4 @@ class DeckRearranging:
         ls = []
         for e, a in zip(deck, above):
             ls.insert(a, e)
-        return ''.join(ls)
+        return "".join(ls)

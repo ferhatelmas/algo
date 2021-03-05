@@ -1,5 +1,6 @@
 from collections import Counter
 
+
 class CheatingQuiz:
     def howMany(self, answers):
         c, r = Counter(answers), []

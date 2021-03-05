@@ -20,8 +20,8 @@ for i in range(1, 10001):
     magic[i] = is_magic(str(i))
 
 
-with open(argv[1], 'r') as test_cases:
+with open(argv[1], "r") as test_cases:
     for test in test_cases:
         a, b = map(int, test.split())
-        r = " ".join(str(i) for i in range(a, b+1) if magic[i])
+        r = " ".join(str(i) for i in range(a, b + 1) if magic[i])
         print(-1 if r == "" else r)

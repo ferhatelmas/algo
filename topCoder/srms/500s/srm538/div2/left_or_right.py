@@ -4,11 +4,11 @@ class LeftOrRight:
         for i in range(2):
             c = 0
             for e in program:
-                if e == 'L':
+                if e == "L":
                     c -= 1
-                elif e == 'R':
+                elif e == "R":
                     c += 1
                 else:
-                    c += -1 if i%2 else 1
+                    c += -1 if i % 2 else 1
                 m = max(m, abs(c))
         return m

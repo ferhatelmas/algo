@@ -9,4 +9,4 @@ class Containers:
             else:
                 c -= packages[j]
                 j += 1
-        return s + c + sum(containers[i+1:])
+        return s + c + sum(containers[i + 1 :])

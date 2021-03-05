@@ -1,5 +1,6 @@
 from collections import Counter
 
+
 class P8XMatrixTransformation:
     def solve(self, original, target):
         def c(m):
@@ -7,4 +8,5 @@ class P8XMatrixTransformation:
             for r in m:
                 c += Counter(r)
             return c
-        return ('NO', 'YES')[c(original) == c(target)]
+
+        return ("NO", "YES")[c(original) == c(target)]

@@ -1,5 +1,6 @@
 from string import ascii_lowercase
 
+
 class TheEncryptionDivTwo:
     def encrypt(self, message):
         i, d, s = 0, {}, []
@@ -8,4 +9,4 @@ class TheEncryptionDivTwo:
                 d[e] = ascii_lowercase[i]
                 i += 1
             s.append(d[e])
-        return ''.join(s)
+        return "".join(s)

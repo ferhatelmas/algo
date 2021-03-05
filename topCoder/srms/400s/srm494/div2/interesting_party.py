@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class InterestingParty:
     def bestInvitation(self, first, second):
         d = defaultdict(int)

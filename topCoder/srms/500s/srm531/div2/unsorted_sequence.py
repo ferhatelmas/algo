@@ -5,5 +5,5 @@ class UnsortedSequence:
         s = sorted(s)
         x = s[-1]
         i = s.count(x)
-        s[-i-1], s[-i] = s[-i], s[-i-1]
+        s[-i - 1], s[-i] = s[-i], s[-i - 1]
         return s

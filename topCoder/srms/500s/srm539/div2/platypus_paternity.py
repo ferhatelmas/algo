@@ -6,9 +6,9 @@ class PlatypusPaternity:
                 for m in maleCompatibility:
                     ok, curr = True, 0
                     for i, e in enumerate(s):
-                        if e == 'Y':
+                        if e == "Y":
                             curr += 1
-                            ok = ok and f[i] == m[i] == 'Y'
+                            ok = ok and f[i] == m[i] == "Y"
                     if ok:
-                        c = max(c, curr+2)
+                        c = max(c, curr + 2)
         return c

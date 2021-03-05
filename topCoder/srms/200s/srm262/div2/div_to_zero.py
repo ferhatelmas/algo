@@ -4,6 +4,6 @@ class DivToZero:
         for i in xrange(100):
             s = str(i)
             if i < 10:
-                s = '0' + s
-            if int(b + s)%factor == 0:
+                s = "0" + s
+            if int(b + s) % factor == 0:
                 return s

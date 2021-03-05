@@ -24,4 +24,3 @@ class Solution:
             res = self.loop(c, res, ascii_lowercase)
             res = self.loop(c, res, reversed)
         return "".join(res)
-

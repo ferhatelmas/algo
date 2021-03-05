@@ -8,5 +8,5 @@ class VariableSpeedLimit:
             else:
                 s += 1
                 journeyLength -= speedLimit[i]
-            i = (i+1)%l
+            i = (i + 1) % l
         return s
