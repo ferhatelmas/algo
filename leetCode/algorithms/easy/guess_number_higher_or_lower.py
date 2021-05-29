@@ -1,10 +1,10 @@
-def guess(num):
-    """ Provided API"""
+def guess(num: int) -> bool:
+    """Provided API"""
     pass
 
 
-class Solution(object):
-    def guessNumber(self, n):
+class Solution:
+    def guessNumber(self, n: int) -> int:
         l, r, g = 1, n, (1 + n) / 2
         v = guess(g)
         while v:
