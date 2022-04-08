@@ -1,19 +1,18 @@
 ## Algorithms [![py](https://github.com/ferhatelmas/algo/workflows/py/badge.svg)](https://github.com/ferhatelmas/algo/actions)
 
 
-These are my solutions for algorithm problems in various websites.
+These are my Python solutions for algorithm problems in various websites.
 
-* [CodeChef](http://www.codechef.com/) - Python
-* [CodeForces](http://codeforces.com/) - Haskell
-* [E-olimp](http://www.e-olimp.com/en/) - Java
-* [Facebook Hacker Cup](https://code.google.com/codejam) - Python
-* [Google Code Jam (GCJ)](https://code.google.com/codejam) - C/C++
-* [LeetCode](http://oj.leetcode.com/) - Python
-* [PKU Online Judge (POJ)](http://poj.org/) - Java
-* [Project Euler](http://projecteuler.net/) - Java
-* [Sphere Online Judge(SPOJ)](http://www.spoj.pl/) - Ruby
-* [Timus Online Judge](http://acm.timus.ru/) - Go
-* [UVa Online Judge](http://uva.onlinejudge.org/) - C/C++
+* [CodeChef](http://www.codechef.com/)
+* [Codeforces](http://codeforces.com/)
+* [eolymp](https://www.eolymp.com/en)
+* [Google Code Jam (GCJ)](https://code.google.com/codejam)
+* [LeetCode](http://oj.leetcode.com/)
+* [PKU Online Judge (POJ)](http://poj.org/)
+* [Project Euler](http://projecteuler.net/)
+* [Sphere Online Judge(SPOJ)](http://www.spoj.pl/)
+* [Timus Online Judge](http://acm.timus.ru/)
+* [UVa Online Judge](http://uva.onlinejudge.org/)
 
 ### License
 
