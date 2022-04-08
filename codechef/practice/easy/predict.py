@@ -7,4 +7,4 @@ def bet(p):
     return 10000 + 10000 * (1 - 2 * p) * p
 
 
-print "\n".join(str(bet(float(ln))) for i, ln in enumerate(stdin) if i)
+print("\n".join(str(bet(float(ln))) for i, ln in enumerate(stdin) if i))

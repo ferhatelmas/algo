@@ -1,6 +1,6 @@
 def is_valid(levels, n):
     stem = 0
-    for i in xrange(n):
+    for i in range(n):
         stem += levels[i]
         if stem % 2 != 0:
             if stem == 1 and i == n - 1:
@@ -11,8 +11,8 @@ def is_valid(levels, n):
     return "No"
 
 
-for _ in xrange(int(raw_input())):
-    n = int(raw_input())
-    levels = map(int, raw_input().split())
+for _ in range(int(input())):
+    n = int(input())
+    levels = map(int, input().split())
     levels.reverse()
-    print is_valid(levels, n)
+    print(is_valid(levels, n))

@@ -22,4 +22,4 @@ class Solution:
     def maxProduct(self, root: TreeNode) -> int:
         total = self.sum(root)
         _, p = self.product(root, total)
-        return p % (10 ** 9 + 7)
+        return p % (10**9 + 7)

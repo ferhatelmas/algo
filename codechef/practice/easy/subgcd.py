@@ -12,4 +12,4 @@ for i, ln in enumerate(stdin):
         if i % 2 == 1:
             n = int(ln)
         else:
-            print n if reduce(gcd, map(int, ln.split())) == 1 else -1
+            print(n if reduce(gcd, map(int, ln.split())) == 1 else -1)

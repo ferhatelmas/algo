@@ -1,6 +1,6 @@
-n, k = map(int, raw_input().split())
-times = map(int, raw_input().split())
-times = sorted(zip(times, xrange(len(times))), key=lambda x: x[0])
+n, k = map(int, input().split())
+times = map(int, input().split())
+times = sorted(zip(times, range(len(times))), key=lambda x: x[0])
 
 cnt, i = 0, 0
 while i < n:
@@ -9,4 +9,4 @@ while i < n:
         j += 1
     cnt += 1
     i = j
-print cnt
+print(cnt)

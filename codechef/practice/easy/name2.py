@@ -14,6 +14,8 @@ def is_possible(a, b):
     return test(a, b) or test(b, a)
 
 
-print "\n".join(
-    ("NO", "YES")[is_possible(*ln.split())] for i, ln in enumerate(stdin) if i
+print(
+    "\n".join(
+        ("NO", "YES")[is_possible(*ln.split())] for i, ln in enumerate(stdin) if i
+    )
 )

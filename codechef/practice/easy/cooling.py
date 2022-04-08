@@ -1,7 +1,7 @@
-for _ in xrange(int(raw_input())):
-    l = int(raw_input())
-    pies = sorted(map(int, raw_input().split()))
-    racks = sorted(map(int, raw_input().split()))
+for _ in range(int(input())):
+    l = int(input())
+    pies = sorted(map(int, input().split()))
+    racks = sorted(map(int, input().split()))
 
     i, j = 0, 0
     while i < l and j < l:
@@ -9,4 +9,4 @@ for _ in xrange(int(raw_input())):
             i += 1
         j += 1
 
-    print i
+    print(i)

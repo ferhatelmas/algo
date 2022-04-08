@@ -8,4 +8,4 @@ for i, ln in enumerate(stdin):
             if e <= m:
                 c += 1
                 m = e
-        print c
+        print(c)

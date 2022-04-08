@@ -18,4 +18,4 @@ class Solution:
             return 4
         if any(p % 4 == 3 and e % 2 == 1 for p, e in self.primes(n)):
             return 3
-        return 1 if int(n ** 0.5) ** 2 == n else 2
+        return 1 if int(n**0.5) ** 2 == n else 2

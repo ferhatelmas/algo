@@ -8,4 +8,4 @@ for i, ln in enumerate(stdin):
             n = int(ln)
         else:
             c = max(Counter(map(int, ln.split())).values())
-            print n - c
+            print(n - c)

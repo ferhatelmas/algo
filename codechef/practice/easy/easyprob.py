@@ -3,7 +3,7 @@ from math import log
 
 def f(n):
     p = int(log(n, 2))
-    c = n - 2 ** p
+    c = n - 2**p
 
     s = "2(" if p != 1 else "2"
     if p >= 2:
@@ -19,4 +19,4 @@ def f(n):
 
 numbers = [137, 1315, 73, 136, 255, 1384, 16385]
 for n in numbers:
-    print "%d=%s" % (n, f(n))
+    print("%d=%s" % (n, f(n)))

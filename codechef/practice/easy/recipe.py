@@ -17,7 +17,7 @@ def min_gcd(recipe):
     return m
 
 
-for _ in xrange(int(raw_input())):
-    recipe = map(int, raw_input().split())[1:]
+for _ in range(int(input())):
+    recipe = map(int, input().split())[1:]
     m = min_gcd(recipe)
-    print " ".join(map(lambda x: str(x / m), recipe))
+    print(" ".join(map(lambda x: str(x / m), recipe)))

@@ -1,3 +1,3 @@
-for _ in xrange(int(raw_input())):
-    n = int(raw_input())
-    print n - n % 2
+for _ in range(int(input())):
+    n = int(input())
+    print(n - n % 2)

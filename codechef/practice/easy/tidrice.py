@@ -10,4 +10,4 @@ for i, ln in enumerate(stdin):
             d[name] = 1 if vote == "+" else -1
             n -= 1
             if not n:
-                print sum(d.values())
+                print(sum(d.values()))

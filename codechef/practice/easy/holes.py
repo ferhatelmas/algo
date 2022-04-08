@@ -15,4 +15,4 @@ def find_holes(word):
 
 stdin.readline()
 for w in stdin:
-    print find_holes(w)
+    print(find_holes(w))

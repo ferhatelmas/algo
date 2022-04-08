@@ -1,8 +1,8 @@
-for _ in xrange(int(raw_input())):
-    raw_input()
+for _ in range(int(input())):
+    input()
     d = {}
     mc, mi = 0, None
-    for e in raw_input().split():
+    for e in input().split():
         if e in d:
             d[e] += 1
         else:
@@ -12,4 +12,4 @@ for _ in xrange(int(raw_input())):
             mc = d[e]
             mi = e
 
-    print "%s %d" % (mi, mc)
+    print("%s %d" % (mi, mc))

@@ -7,8 +7,8 @@ for i, ln in enumerate(stdin):
     else:
         k = int(ln)
         if k < n + 1:
-            print 0
+            print(0)
         elif k > 2 * n:
-            print 3 * n - k + 1
+            print(3 * n - k + 1)
         else:
-            print k - n - 1
+            print(k - n - 1)

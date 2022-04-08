@@ -8,7 +8,7 @@ class Solution:
             b = b.next
             bi += 1
         c = min(ai, bi)
-        print c, ai, bi
+        print(c, ai, bi)
         a, b = headA, headB
         while ai > c:
             ai -= 1

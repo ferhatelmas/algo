@@ -1,4 +1,4 @@
-n = raw_input()
+n = input()
 while n != "42":
-    print n
-    n = raw_input()
+    print(n)
+    n = input()

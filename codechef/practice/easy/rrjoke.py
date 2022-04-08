@@ -8,6 +8,6 @@ for i, ln in enumerate(stdin):
         continue
     if not n:
         n = int(ln)
-        print reduce(xor, xrange(1, n + 1), 0)
+        print(reduce(xor, range(1, n + 1), 0))
     else:
         n -= 1

@@ -26,4 +26,4 @@ def parse(expr, i):
 stdin.readline()
 for expr in stdin:
     rpn, i = parse(expr, 0)
-    print rpn
+    print(rpn)

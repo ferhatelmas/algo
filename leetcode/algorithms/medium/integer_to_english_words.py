@@ -16,7 +16,7 @@ class Solution:
                 r, q = divmod(n, 100)
                 return [below20[r - 1]] + ["Hundred"] + words(q)
             for w, p in zip(("Billion", "Million", "Thousand"), (3, 2, 1)):
-                r, q = divmod(n, 1000 ** p)
+                r, q = divmod(n, 1000**p)
                 if r > 0:
                     return words(r) + [w] + words(q)
 

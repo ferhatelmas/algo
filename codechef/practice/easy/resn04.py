@@ -10,4 +10,4 @@ for _ in range(int(stdin.readline())):
         hands += p / i
         i += 1
 
-    print "ALICE" if hands % 2 == 1 else "BOB"
+    print("ALICE" if hands % 2 == 1 else "BOB")

@@ -12,4 +12,4 @@ def is_fib(n):
     return n in cache
 
 
-print "\n".join(("NO", "YES")[is_fib(int(e))] for i, e in enumerate(stdin) if i)
+print("\n".join(("NO", "YES")[is_fib(int(e))] for i, e in enumerate(stdin) if i))

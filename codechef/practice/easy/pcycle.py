@@ -1,5 +1,5 @@
-n = int(raw_input())
-p = [0] + map(int, raw_input().split())
+n = int(input())
+p = [0] + map(int, input().split())
 m, c, s, cs = range(1, n + 1), [], 1, []
 while len(m) >= 0:
     if s in c:
@@ -12,6 +12,6 @@ while len(m) >= 0:
     c.append(s)
     m.remove(s)
     s = p[s]
-print len(cs)
+print(len(cs))
 for c in cs:
-    print c
+    print(c)

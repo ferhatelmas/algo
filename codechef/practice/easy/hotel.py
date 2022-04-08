@@ -1,7 +1,7 @@
-for _ in xrange(int(raw_input())):
-    n = int(raw_input())
-    a = sorted(map(int, raw_input().split()))
-    d = sorted(map(int, raw_input().split()))
+for _ in range(int(input())):
+    n = int(input())
+    a = sorted(map(int, input().split()))
+    d = sorted(map(int, input().split()))
 
     i, j, m, mi = 0, 0, 0, 0
     while i < n and j < n:
@@ -12,4 +12,4 @@ for _ in xrange(int(raw_input())):
         else:
             m -= 1
             j += 1
-    print mi
+    print(mi)
