@@ -3,8 +3,8 @@ class Solution:
         if n < 3:
             return 0
         primes = [True] * n
-        for i in xrange(2, n):
+        for i in range(2, n):
             if primes[i]:
-                for j in xrange(2 * i, n, i):
+                for j in range(2 * i, n, i):
                     primes[j] = False
         return sum(primes[2:])

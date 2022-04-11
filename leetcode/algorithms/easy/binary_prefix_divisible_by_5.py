@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def prefixesDivBy5(self, A: List[int]) -> List[bool]:
         res, r = [], 0

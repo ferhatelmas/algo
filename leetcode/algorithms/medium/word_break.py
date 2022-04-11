@@ -11,6 +11,6 @@ class Solution:
             if not s
             else any(
                 s[:i] in dict and self.solve(s[i:], dict, l - i)
-                for i in xrange(l, 0, -1)
+                for i in range(l, 0, -1)
             )
         )

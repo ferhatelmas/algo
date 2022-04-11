@@ -10,5 +10,5 @@ class Solution:
             elif n < -2147483648:
                 return -2147483648
             return n
-        except:
+        except ValueError:
             return 0

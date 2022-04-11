@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res, inc, index = [0] * num_people, 1, 0

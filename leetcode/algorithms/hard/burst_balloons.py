@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def maxCoins(self, nums):
         n, ns = len(nums), [1] + nums + [1]
         dp = [[0] * (n + 2) for _ in range(n + 2)]

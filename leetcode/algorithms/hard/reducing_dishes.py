@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def maxSatisfaction(self, satisfaction: List[int]) -> int:
         ss, l, m = sorted(satisfaction), len(satisfaction), 0

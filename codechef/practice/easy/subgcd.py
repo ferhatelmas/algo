@@ -1,3 +1,4 @@
+from functools import reduce
 from sys import stdin
 
 

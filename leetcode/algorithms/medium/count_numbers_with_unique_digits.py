@@ -1,3 +1,6 @@
+from functools import reduce
+
+
 class Solution(object):
     def countNumbersWithUniqueDigits(self, n):
         def base(s, n):

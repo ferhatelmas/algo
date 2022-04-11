@@ -1,4 +1,5 @@
 from threading import Lock
+from typing import Callable
 
 
 class Foo:

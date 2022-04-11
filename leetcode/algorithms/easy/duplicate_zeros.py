@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         i, l = 0, len(arr)

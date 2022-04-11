@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def selfDividing(self, n: int) -> bool:
         s = str(n)

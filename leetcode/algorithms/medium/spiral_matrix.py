@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def spiralOrder(self, matrix):
         if not matrix:
             return []

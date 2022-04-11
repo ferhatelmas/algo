@@ -7,4 +7,4 @@ class Solution(object):
         if l != r * c:
             return nums
         it = itertools.chain(*nums)
-        return [list(itertools.islice(it, 0, c)) for i in xrange(0, l, c)]
+        return [list(itertools.islice(it, 0, c)) for i in range(0, l, c)]

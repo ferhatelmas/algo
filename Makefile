@@ -8,8 +8,7 @@ MAKEFLAGS += --no-builtin-rules
 .PHONY: lint
 lint:
 	black --check .
-	# TODO: enable
-	# flake8 .
+	flake8 .
 
 .PHONY: lint-fix
 lint-fix:

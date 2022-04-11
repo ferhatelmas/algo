@@ -4,7 +4,7 @@ class Solution:
         k %= l
         if k < l:
             c, i, p = 0, 0, nums[0]
-            for j in xrange(l):
+            for j in range(l):
                 i = (i + k) % l
                 p, nums[i] = nums[i], p
                 c += k

@@ -3,5 +3,5 @@ class Solution:
         try:
             float(s)
             return True
-        except:
+        except ValueError:
             return False

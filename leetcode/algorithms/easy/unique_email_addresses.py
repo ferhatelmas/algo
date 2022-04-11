@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         return len(set(self.unique(e) for e in emails))
