@@ -1,9 +1,0 @@
-DELETE FROM Person
-WHERE Id NOT IN (
-  SELECT p.Id
-  FROM (
-    SELECT EMAIL, MIN(ID) AS ID
-    FROM PERSON
-    GROUP BY EMAIL
-  ) AS p
-);
