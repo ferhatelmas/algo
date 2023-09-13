@@ -7,6 +7,6 @@ class Solution:
                 if prev and d <= prev:
                     return False
                 prev = d
-            except:
+            except:  # noqa: E722
                 pass
         return True
