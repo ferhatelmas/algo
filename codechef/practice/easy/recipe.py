@@ -10,7 +10,7 @@ def gcd(a, b):
 
 def min_gcd(recipe):
     m = 1000
-    for (a, b) in itertools.combinations(recipe, 2):
+    for a, b in itertools.combinations(recipe, 2):
         m = min(gcd(a, b), m)
         if m == 1:
             break

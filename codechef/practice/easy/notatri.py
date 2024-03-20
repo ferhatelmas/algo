@@ -1,6 +1,7 @@
 """
 Correct but time limit, notatri.cpp is ok
 """
+
 n = int(input())
 while n != 0:
     p = sorted(map(int, input().split()))

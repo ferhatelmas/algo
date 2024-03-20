@@ -10,7 +10,7 @@ for _ in range(int(input())):
     )
 
     path, x, y = 0, points[0][0], points[0][1]
-    for (x1, y1) in points:
+    for x1, y1 in points:
         path += ((x1 - x) ** 2 + (y1 - y) ** 2) ** 0.5
         x, y = x1, y1
 
